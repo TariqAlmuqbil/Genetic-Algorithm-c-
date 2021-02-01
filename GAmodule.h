@@ -150,10 +150,7 @@ void GAmodule<T>::_printCreaturesData(){
 
 template<class T>
 void GAmodule<T>::_resetScoresOfCreatures(){
-	for(int i=0; i<_numberOfPupulation; i++)
-   {
-	 _scoredCreatures[i].second=0;
-   }
+	 _scoredCreatures.clear();
 }
 
 #endif // __GAMODULE_H__
