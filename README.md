@@ -5,10 +5,15 @@ This project is the capstone project of the Udacity C++ Nano Degree.
 In this project, I wrote a code that is based on a genetic algorithm. This project is working as a functions optimizer. It will optimize any function. Whether it is a mathematical function or any general function that takes any parameters than perform a thing based on their values.
 
 
+# How to compile
 
-# Examples
+Downloade the fils into a folder. Then use these commands:
+```
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ".\main.cpp" 
+g++ -o The_Project.exe main.o 
+```
 
-Two examples are provided in the folder `Example`.
+A new file with a name of "The_Project.exe" will be genrated in the same folder. Double click on it to start the program.
 
 # How to Use
 
@@ -40,3 +45,19 @@ This will returns the best results with the type of your created class.
 
 
 
+# Examples of an object class
+
+Two examples are provided in the folder `Example`.
+
+# Rubric Points
+
+## Loops, Functions, I/O
+1. A variety of control structures are used in the project. The project code is clearly organized into functions.
+
+## Object Oriented Programming
+1. The project code is organized into classes with class attributes to hold the data, and class methods to perform tasks.
+2. All class data members are explicitly specified as public, protected, or private.
+3. All class members that are set to argument values are initialized through member initialization lists.
+4. All class member functions document their effects, either through function names, comments, or formal documentation. Member functions do not change program state in undocumented ways. (they are documentd through function names)
+5. Appropriate data and functions are grouped into classes. Member data that is subject to an invariant is hidden from the user. State is accessed via member functions.
+6. One function is declared with a template that allows it to accept a generic parameter.
