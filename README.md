@@ -9,9 +9,10 @@ In this project, I wrote a code that is based on a genetic algorithm. This proje
 
 Downloade the fils into a folder. Then use these commands:
 ```
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o ".\main.cpp" 
-g++ -o The_Project.exe main.o 
+g++ .\main.cpp 
+.\a.exe 
 ```
+(Note: the MinGW compiler should be installed youe computer) 
 
 A new file with a name of "The_Project.exe" will be genrated in the same folder. Double click on it to start the program.
 
